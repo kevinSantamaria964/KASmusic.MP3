@@ -12,7 +12,7 @@
       <Label layoutX="17.0" layoutY="14.0" prefHeight="67.0" prefWidth="266.0" styleClass="etiquetaPrincipalRegistroDeUsuario" stylesheets="@KASMusic.css" text="Creación de usuario" />
       <Label layoutX="85.0" layoutY="81.0" styleClass="etiquetaPequeniaConFondoOscuro" stylesheets="@KASMusic.css" text="Nombre de usuario:" />
       <TextField fx:id="INPUT_TEXTO_Usuario" layoutX="76.0" layoutY="115.0" promptText="Nombre de usuario" styleClass="textFieldLoguin" stylesheets="@KASMusic.css" />
-      <Label layoutX="107.0" layoutY="152.0" styleClass="etiquetaPequeniaConFondoOscuro" stylesheets="@UPMusic.css" text="Contraseña:" />
+      <Label layoutX="107.0" layoutY="152.0" styleClass="etiquetaPequeniaConFondoOscuro" stylesheets="@KASMusic.css" text="Contraseña:" />
       <PasswordField fx:id="INPUT_TEXTO_Password" layoutX="76.0" layoutY="188.0" promptText="Contraseña" styleClass="textFieldLoguin" stylesheets="@KASMusic.css" />
       <CheckBox fx:id="modo_invitado" layoutX="75.0" layoutY="299.0" mnemonicParsing="false" onAction="#ModoInvitadoSeleccionado" styleClass="checkBoxLoguin" stylesheets="@KASMusic.css" text="Entrar como invitado" />
       <Button fx:id="INPUT_BOTON_Registrar_usuario" layoutX="97.0" layoutY="333.0" mnemonicParsing="false" onAction="#RegistrarUsuario" styleClass="botonLoguin" stylesheets="@KASMusic.css" text="Registrar" />
